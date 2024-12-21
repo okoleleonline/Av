@@ -18,4 +18,4 @@ script:
   - chmod +x * && chmod +x bgmi && python3 vps.py
   
                                
-       
+        
