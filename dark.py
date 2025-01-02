@@ -10,7 +10,7 @@ import requests
 from requests.exceptions import RequestException
 
 # Replace with your actual bot token and admin IDs
-API_TOKEN = "7784685155:AAEX445QQM1-QuZBeq6kVqVqniXIslfchlY"
+API_TOKEN = "7876862440:AAHqDG-w2pBjhvIMqxjYgBgCARrn6T0Epbw"
 ADMIN_IDS = {5344691638}  # Example: set of admin IDs
 
 bot = telebot.TeleBot(API_TOKEN)
